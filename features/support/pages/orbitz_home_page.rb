@@ -8,6 +8,9 @@ class OrbitzHomePage
   text_field(:select_dept_name, :id => 'flight-origin')
   text_field(:select_arr_name,:id => 'flight-destination')
   ul(:all_airports, :class => 'results')
+  text_field(:dept_date, :id => 'flight-departing')
+  text_field(:arr_date, :id => 'flight-returning')
+  button(:search, :id => 'search-button')
 
   def set_dep_airport city_name , airport_name
     #for text field we are using the self method
@@ -26,6 +29,14 @@ class OrbitzHomePage
     select_airport airport_name
   end
 
+  def select_future_dep_date
+    self.dept_date = change_date 2
+  end
+
+  def select_future_arr_date
+    self.arr_date = change_date 3
+  end
+
   def select_airport airport_name
     all_airports_element.wait_until_present.lis.each do|each_airport|
       p each_airport.text
@@ -35,9 +46,8 @@ class OrbitzHomePage
     end
   end
 end
+  def change_date(no_of_days)
+    (Time.now+60*60*24*no_of_days).strftime('%m/%d/%Y')
+  end
 
-
- # @browser.link(:id => 'tab-flight-tab').click
-  #@browser.label(:id => 'flight-type-roundtrip-label').click
-
-end
+  end
