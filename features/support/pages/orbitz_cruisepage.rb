@@ -6,6 +6,7 @@ class OrbitzCruisepage
   link(:cruise_tab, :id => 'tab-cruise-tab')
   select_list(:select_destination, :id =>'cruise-destination')
   select_list(:select_date, :id => 'cruise-departure-month')
+  button(:search, :id => 'search-button')
 
 
   def select_cruise_destination country_name
@@ -15,7 +16,7 @@ class OrbitzCruisepage
 
   def select_cruise_date date
 
-    self.select_date = date 'April 2018'
+    self.select_date = date
   end
 
 
