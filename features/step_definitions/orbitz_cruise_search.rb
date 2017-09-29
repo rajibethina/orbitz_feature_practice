@@ -18,7 +18,12 @@ And(/^I click the search button$/) do
   on(OrbitzCruisepage).search_element.click
 end
 
+
 Then(/^I should see the search results$/) do
-  pending
+ on(OrbitzFlightsSearchResultsPage).verify_search_results_are_displayed?
 end
 
+
+# And(/^I select the (.*) from drop down list$/) do |Going_to|
+#   pending
+# end
