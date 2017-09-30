@@ -12,10 +12,9 @@ class OrbitzCruisepage
   def select_cruise_destination country_name
 
     self.select_destination = country_name
-  end
-
+    end
+  sleep 4
   def select_cruise_date date
-
     self.select_date = date
   end
 

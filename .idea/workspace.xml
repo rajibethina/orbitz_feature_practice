@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ccdadb6-b847-4ecd-9068-a9e2dee025e0" name="Default" comment="Updated the scenario outline">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/orbitz_feature_practice.iml" afterPath="$PROJECT_DIR$/.idea/orbitz_feature_practice.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/step_definitions/orbitz_cuba_cruise.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/orbitz_cruise.feature" afterPath="$PROJECT_DIR$/features/orbitz_cruise.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb" afterPath="$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb" afterPath="$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,15 +18,25 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/orbitz_feature_practice@orbitz_flight_search_feature.coverage" NAME="orbitz_flight_search.feature Coverage Results" MODIFIED="1505874176164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="orbitz_feature_practice" />
-    <SUITE FILE_PATH="coverage/orbitz_feature_practice@orbitz_cruise_feature.coverage" NAME="orbitz_cruise.feature Coverage Results" MODIFIED="1506644557051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="orbitz_feature_practice" />
+    <SUITE FILE_PATH="coverage/orbitz_feature_practice@orbitz_cruise_feature.coverage" NAME="orbitz_cruise.feature Coverage Results" MODIFIED="1506807199737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="orbitz_feature_practice" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="orbitz_cruise.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="orbitz_cruise.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/orbitz_cruise.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="293">
+              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="orbitz_cuba_cruise.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cuba_cruise.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -32,8 +45,8 @@
       <file leaf-file-name="orbitz_cruise_search.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="615">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,28 +55,8 @@
       <file leaf-file-name="orbitz_flights_search_results_page.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_flights_search_results_page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="189">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -72,8 +65,8 @@
       <file leaf-file-name="orbitz_cruisepage.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            <state relative-caret-position="357">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,12 +92,15 @@
         <option value="$PROJECT_DIR$/features/orbitz_flight_search.feature" />
         <option value="$PROJECT_DIR$/features/support/pages/orbitz_home_page.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/orbitz_flight_search.rb" />
-        <option value="$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb" />
+        <option value="$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/orbitz_cuba_cruise.rb.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/orbitz_cuba_cruise.rb" />
         <option value="$PROJECT_DIR$/features/support/pages/orbitz_flights_search_results_page.rb" />
         <option value="$PROJECT_DIR$/features/orbitz_cruise.feature" />
-        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -115,10 +111,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-96" />
-    <option name="y" value="37" />
+    <option name="x" value="-59" />
+    <option name="y" value="170" />
     <option name="width" value="1924" />
-    <option name="height" value="425" />
+    <option name="height" value="346" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -136,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +143,12 @@
               <item name="orbitz_feature_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="orbitz_feature_practice" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orbitz_feature_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orbitz_feature_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="orbitz_feature_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -166,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +287,13 @@
       <workItem from="1506631520203" duration="1805000" />
       <workItem from="1506634336065" duration="1788000" />
       <workItem from="1506644466528" duration="739000" />
-      <workItem from="1506646277204" duration="840000" />
+      <workItem from="1506646277204" duration="1458000" />
+      <workItem from="1506648107425" duration="598000" />
+      <workItem from="1506711290091" duration="1628000" />
+      <workItem from="1506799377621" duration="1999000" />
+      <workItem from="1506801413532" duration="1834000" />
+      <workItem from="1506803295544" duration="1905000" />
+      <workItem from="1506806855172" duration="522000" />
     </task>
     <task id="LOCAL-00001" summary="Updated the scenario outline">
       <created>1505674190487</created>
@@ -322,43 +330,50 @@
       <option name="project" value="LOCAL" />
       <updated>1506646976311</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated the scenario outline">
+      <created>1506647125583</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506647125583</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 47m 14s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 15h 51m 49s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 48m 02s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 15h 55m 19s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 51m 16s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 03m 09s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 52m 36s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 17m 00s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 54m 37s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 19m 35s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 55m 20s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 22m 14s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 57m 44s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 25m 50s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 17h 58m 29s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 27m 21s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 20h 22m 23s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 16h 30m 02s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="orbitz_cruise_feature - 2017.09.28 at 20h 22m 56s.xml">
+    <history-entry file="orbitz_cruise_feature - 2017.09.30 at 17h 34m 59s.xml">
       <configuration name="orbitz_cruise.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31379000" />
+    <option name="totallyTimeSpent" value="40483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,14 +386,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.301826" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319012" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42099324" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56546277" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42099324" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4187359" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -388,7 +403,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56589144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -426,21 +440,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/orbitz_flight_search.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/orbitz_cruise.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -728,51 +727,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_flight_search_results_page.rb" />
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/orbitz_cruise.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_flights_search_results_page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="378">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -784,10 +750,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_cruisepage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cruise_search.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cuba_cruise">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/pages/orbitz_flights_search_results_page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/orbitz_cuba_cruise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/orbitz_cruise.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding />
         </state>
       </provider>
