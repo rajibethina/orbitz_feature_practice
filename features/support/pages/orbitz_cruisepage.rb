@@ -9,6 +9,11 @@ class OrbitzCruisepage
   button(:search, :id => 'search-button')
 
 
+  def load_yml_data
+    @file= YAML.load_file 'C:\orbitz_feature_practice\features\support\testing.yml'
+    p @file.fetch('request')
+  end
+
   def select_cruise_destination country_name
 
     self.select_destination = country_name

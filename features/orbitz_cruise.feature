@@ -1,8 +1,8 @@
 Feature: Search for Orbitz Cruise Functionality
 
-  Background:
-   Given user in orbitz home page
-   When user selects cruise button on orbitz page
+#  Background:
+#   Given user in orbitz home page
+#   When user selects cruise button on orbitz page
 
   Scenario: Verifying user search list of cruises for selected places and dates
   #Given the user is on Orbitz home page
@@ -23,10 +23,14 @@ Feature: Search for Orbitz Cruise Functionality
       |Caribbean  |  Sep 2018        |
       |Bahamas    |  Oct 2018        |
 
-  Scenario: Verify the cruise results are displayed as per cruise length
-    And I select the cuba from drop down list
-    And user selects the Apr 2018 from drop down list
-    And user selects the "3-5 Nights" from cruise length
-    And user selects the "Show Dates" from from first cruise
-    And user selects the cruise from display results
-    Then user should see the results
+#    @cruise_results
+#  Scenario: Verify the cruise results are displayed as per cruise length
+#    And I select the cuba from drop down list
+#    And user selects the Apr 2018 from drop down list
+#    And user selects the 3-5 Nights from cruise length
+#    And user selects the "Show Dates" from from first cruise
+#    And user selects the cruise from display results
+#    Then user should see the results
+
+  Scenario: Verify yml functionality
+    Then test the yml file works

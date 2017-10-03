@@ -47,3 +47,6 @@ Then(/^I should see the search results$/) do
 end
 
 
+Then(/^test the yml file works$/) do
+  on(OrbitzCruisepage).load_yml_data
+end
